@@ -393,14 +393,14 @@ letter-spacing: 0.06em; */ */
 	background: rgba(47, 48, 58, 0.8);
 	position: absolute;
 	bottom: 0;
-
+}
 
 /*  NASZ ZESPÓŁ / OUR TEAM  */
 
 .our-team {
   /* background-color: #f5f4fa; */
   background-color: var(--light-grey-backgorund-color);
-	margin: 0 auto;
+  margin: 0 auto;
 }
 
 .our-team-list {
@@ -409,8 +409,8 @@ letter-spacing: 0.06em; */ */
 }
 
 .our-team-list-item {
-  /* background-color: #ffffff; */
-  background-color: var(--white-txt-color);
+  	/* background-color: #ffffff; */
+    background-color: var(--white-txt-color);
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),	0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 0px 0px 4px 4px;
 }
@@ -466,20 +466,15 @@ letter-spacing: 0.06em; */ */
 
 .socials-link:hover,
 .socials-link:focus {
-	background-color: var(--hover-color);
+  background-color: var(--hover-color);
   color: var(--white-txt-color);
 }
 
 /* .socials-link:hover .socials-icon,
 .socials-link:focus .socials-icon {
-	fill: var(--white-txt-color); */
-}
+	fill: var(--white-txt-color);
+ } */
 
-.socials-link:hover,
-.socials-link:focus {
-	background-color: var(--hover-color);
-	color: var(--white-txt-color);
-}
 
 
 /* OUR CLIENTS */
@@ -580,7 +575,7 @@ letter-spacing: 0.06em; */ */
 .join-us {
 	font-weight: 700;
 	font-size: 14px;
-	line-height: 16px;
+	line-height: 1.143px;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	color: var(--white-txt-color);
