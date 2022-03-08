@@ -73,7 +73,47 @@
                 <use href="images/icons.svg#close-icon"></use>
               </svg>
             </button>
+            <h2 class="modal-header">Zostaw swoje dane w formularzu poniżej</h2>
+            <form action="#" name="contact_form" autocomplete="on" class="modal-form">
+              <label for="modal-form-input-username" class="modal-form-label">Imie
+              </label>
+            
+              <div class="input-wrapper">
+                <input type="text" name="username" class="modal-form-input" id="modal-form-input-username" required />
+                <svg class="modal-form-icon">
+                  <use href="images/icons.svg#person-black"></use>
+                </svg>
+              </div>
+            
+              <label for="modal-form-input-phonenumber" class="modal-form-label">Telefon</label>
+              <div class="input-wrapper">
+                <input type="tel" name="userphone" class="modal-form-input" id="modal-form-input-phonenumber" required />
+                <svg class="modal-form-icon">
+                  <use href="images/icons.svg#phone-black"></use>
+                </svg>
+              </div>
+              <label for="modal-form-input-useremail" class="modal-form-label">Email</label>
+              <div class="input-wrapper">
+                <input type="email" name="useremail" class="modal-form-input" id="modal-form-input-useremail" required />
+                <svg class="modal-form-icon">
+                  <use href="images/icons.svg#email-black"></use>
+                </svg>
+              </div>
+              <label for="modal-form-textarea" class="modal-form-label">Komentarz</label>
+              <textarea name="userfeedback" id="modal-form-textarea" class="modal-form-textarea-feedback"
+                placeholder="Wprowadź tekst"></textarea>
+              <div class="checkbox-wrapper">
+                <input type="checkbox" name="accept-terms" id="modal-form-checkbox"
+                  class="modal-form-checkbox-terms visually-hidden" required />
+            
+                <label for="modal-form-checkbox" class="modal-form-terms">Oświadczam iż akceptuję
+                  <a href="#" class="modal-form-links"> Regulamin</a> i
+                  <a href="#" class="modal-form-links">Politykę Prywatności.</a>
+                </label>
           </div>
+          <button type="submit" class="primary-btn">Wyślij</button>
+          </form>
+        </div>
         </div>
 
 <!-- Nasze atuty / Our atributes-->
@@ -433,6 +473,19 @@
             </svg></a>
         </li>
       </ul>
+    </div>
+    div class="newsletter-wrapper">
+    <p class="sing-up">Zapisz się do newslettera</p>
+    <form action="#" class="form-sign-up" name="signup_form" autocomplete="on">
+      <input class="input-sign-up" type="email" name="email" placeholder="E-mail" required />
+    
+      <button class="primary-btn sign-up-btn" type="submit">
+        Zapisz się
+        <svg class="sign-up-icon">
+          <use href="images/icons.svg#icon-send"></use>
+        </svg>
+      </button>
+    </form>
     </div>
     </div>
     </footer>
