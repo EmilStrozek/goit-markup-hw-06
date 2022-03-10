@@ -87,9 +87,7 @@ a {
 	right: 0;
 	top: 0;
 	bottom: 0;
-	transition: transform 1000ms ease-in-out, opacity 1000ms ease-in-out,
-		visibility 1000ms ease-in-out;
-}
+	}
 
 .modal {
 	width: 528px;
@@ -101,6 +99,8 @@ a {
 	margin: auto;
 	position: relative;
 	padding: 0 40px;
+	transition: transform 1000ms ease-in-out, opacity 1000ms ease-in-out,
+		visibility 1000ms ease-in-out;
 }
 
 .close-btn {
