@@ -762,14 +762,16 @@ letter-spacing: 0.06em; */ */
 }
 
 .primary-btn-footer {
-  width: 200px;
+  min-width: 200px;
   height: 50px; 
-  padding: 10px 37px;
+  padding-left: 33px;
 }
 
 .sign-up-btn {
 	position: relative;
-	padding-right: 58px;
+	padding-right: 50px;
+	min-width: 200px;
+	padding-left: 15px;
 }
 
 .sign-up-icon {
